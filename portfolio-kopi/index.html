@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philip Juhl Portfolio</title>
+    <meta name="description" content="Portfolio of Philip Juhl – Software Engineer. Projects, experience, and contact information.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="bg-black text-white font-['Space_Grotesk'] overflow-x-hidden">
+        <div class="fixed inset-0 overflow-hidden pointer-events-none z-0">
+            <div class="absolute top-20 left-10 w-96 h-96 bg-indigo-900/10 rounded-full blur-3xl"></div>
+            <div class="absolute bottom-10 right-10 w-80 h-80 bg-purple-900/10 rounded-full blur-3xl"></div>
+            <div class="absolute top-40 right-20 w-64 h-64 bg-cyan-900/10 rounded-full blur-3xl"></div>
+            <div class="absolute inset-0 grid grid-cols-12 opacity-5 pointer-events-none">
+                <div class="border-r border-cyan-500"></div>
+                <div class="border-r border-cyan-500"></div>
+                <div class="border-r border-cyan-500"></div>
+                <div class="border-r border-cyan-500"></div>
+                <div class="border-r border-cyan-500"></div>
+                <div class="border-r border-cyan-500"></div>
+                <div class="border-r border-cyan-500"></div>
+                <div class="border-r border-cyan-500"></div>
+                <div class="border-r border-cyan-500"></div>
+                <div class="border-r border-cyan-500"></div>
+                <div class="border-r border-cyan-500"></div>
+                <div class="border-r border-cyan-500"></div>
+            </div>
+            <div class="absolute inset-0 grid grid-rows-12 opacity-5 pointer-events-none">
+                <div class="border-b border-cyan-500"></div>
+                <div class="border-b border-cyan-500"></div>
+                <div class="border-b border-cyan-500"></div>
+                <div class="border-b border-cyan-500"></div>
+                <div class="border-b border-cyan-500"></div>
+                <div class="border-b border-cyan-500"></div>
+                <div class="border-b border-cyan-500"></div>
+                <div class="border-b border-cyan-500"></div>
+                <div class="border-b border-cyan-500"></div>
+                <div class="border-b border-cyan-500"></div>
+                <div class="border-b border-cyan-500"></div>
+                <div class="border-b border-cyan-500"></div>
+            </div>
+        </div>
+
+        <nav id="navbar" class="fixed top-0 left-0 right-0 bg-gray-900/70 backdrop-blur-lg border-b border-cyan-500/30 z-50 transition-all duration-300">
+            <div class="container mx-auto px-6 py-3">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center">
+                        <div class="relative mr-2">
+                            <div class="absolute inset-0 bg-cyan-400/30 rounded-md blur-sm"></div>
+                            <div class="w-10 h-10 rounded-md bg-gradient-to-br from-indigo-600 to-purple-600 border border-indigo-400/30 flex items-center justify-center relative shadow-lg shadow-indigo-800/20">
+                                <div class="absolute inset-[3px] bg-gray-900 rounded-[4px] flex items-center justify-center overflow-hidden">
+                                    <div class="absolute inset-0 bg-gradient-to-br from-indigo-900/20 to-purple-900/20"></div>
+                                    <div class="font-bold text-lg bg-gradient-to-r from-cyan-400 to-indigo-400 bg-clip-text text-transparent">PJ</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-xl font-medium bg-gradient-to-r from-indigo-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent flex items-center">
+                            Philip Juhl
+                        </div>
+                    </div>
+                    <div class="hidden md:flex items-center space-x-1">
+                        <a href="#hero" class="nav-link text-gray-300 hover:text-cyan-400 px-4 py-2 rounded-md transition-colors duration-200">Home</a>
+                        <a href="#about" class="nav-link text-gray-300 hover:text-cyan-400 px-4 py-2 rounded-md transition-colors duration-200">About</a>
+                        <a href="#skills" class="nav-link text-gray-300 hover:text-cyan-400 px-4 py-2 rounded-md transition-colors duration-200">Services</a>
+                        <a href="#projects" class="nav-link text-gray-300 hover:text-cyan-400 px-4 py-2 rounded-md transition-colors duration-200">Portfolio</a>
+                        <a href="#contact" class="nav-link text-gray-300 hover:text-cyan-400 px-4 py-2 rounded-md transition-colors duration-200">Contact</a>
+                        <div class="relative ml-4 group">
+                            <div class="absolute -inset-0.5 bg-gradient-to-r from-indigo-600/50 to-purple-600/50 rounded-lg blur opacity-75 group-hover:opacity-100 transition-all duration-500"></div>
+
+                        </div>
+                    </div>
+                    <div class="flex md:hidden">
+                        <button id="mobile-menu-button" class="relative w-10 h-10 focus:outline-none group" aria-label="Toggle menu">
+                            <div class="absolute w-5 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2">
+                                <span class="block h-0.5 w-5 bg-cyan-400 mb-1 transform transition duration-300 ease-in-out" id="line1"></span>
+                                <span class="block h-0.5 w-5 bg-cyan-400 mb-1 transform transition duration-300 ease-in-out" id="line2"></span>
+                                <span class="block h-0.5 w-5 bg-cyan-400 transform transition duration-300 ease-in-out" id="line3"></span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div id="mobile-menu" class="md:hidden h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                    <div class="pt-2 pb-4 space-y-1">
+                        <a href="#hero" class="mobile-nav-link block text-gray-300 hover:text-cyan-400 hover:bg-gray-800/50 px-4 py-2 rounded-md transition-colors duration-200">Home</a>
+                        <a href="#about" class="mobile-nav-link block text-gray-300 hover:text-cyan-400 hover:bg-gray-800/50 px-4 py-2 rounded-md transition-colors duration-200">About</a>
+                        <a href="#skills" class="mobile-nav-link block text-gray-300 hover:text-cyan-400 hover:bg-gray-800/50 px-4 py-2 rounded-md transition-colors duration-200">Services</a>
+                        <a href="#projects" class="mobile-nav-link block text-gray-300 hover:text-cyan-400 hover:bg-gray-800/50 px-4 py-2 rounded-md transition-colors duration-200">Portfolio</a>
+                        <a href="#contact" class="mobile-nav-link block text-gray-300 hover:text-cyan-400 hover:bg-gray-800/50 px-4 py-2 rounded-md transition-colors duration-200">Contact</a>
+                        <div class="px-4 pt-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </nav>
+        </div>
+    
+
+    <main id="hero" class="hero" role="main">
+        <div class="container hero-inner">
+            <div class="hero-copy">
+                <p class="eyebrow">Frontend developer / UX-UI designer / Content manager</p>
+                <h1>Crafting reliable, fast, and elegant digital products, through code and design</h1>
+                <p class="subtitle">A freshly made Multimediadesigner that crafts clean and reliable designs, with a focus on user experience, modern aesthetics, and turning ideas into engaging digital solutions</p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#projects">View Projects</a>
+                    <a class="btn btn-ghost" href="#contact">Get in touch</a>
+                </div>
+            </div>
+            <div class="hero-media" aria-hidden="false">
+                <img src="images/profileimg.png" alt="Portrait of Philip Juhl" loading="eager" decoding="async">
+            </div>
+        </div>
+        <div class="hero-gradient" aria-hidden="true"></div>
+    </main>
+
+    <section id="about" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2>About me</h2>
+                <p>Creative frontend developer from Greenlan who enjoys transforming ideas into intuitive interfaces, refining design details, and building user-friendly digital experiences for the user and or company to enjoy!</p>
+            </div>
+            <div class="feature-grid">
+                <div class="feature">
+                    <h3>Modern Web Design</h3>
+                    <p>I create responsive and user-friendly websites using WordPress or custom HTML/CSS solutions.</p>
+                  </div>
+                <div class="feature">
+                  <h3>UI & UX Focus</h3>
+                  <p>With a background in multimedia design, I combine aesthetics with functionality to deliver engaging digital experiences.</p>
+                </div>
+                <div class="feature">
+                  <h3>Creative & Marketing</h3>
+                  <p>From content creation to digital marketing, I help brands build a strong and consistent online presence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Skills</h2>
+                <p>Strong frontend skills with focus on clean design, usability, and responsive development.</p>
+              </div>
+            <ul class="chip-list">
+                <li class="chip">HTML</li>
+                <li class="chip">Tailwind / CSS</li>
+                <li class="chip">JavaScript</li>
+                <li class="chip">React</li>
+                <li class="chip">Figma</li>
+                <li class="chip">Elementor/Wordpress</li>
+              </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="section section-projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Projects</h2>
+                <p>Selected work that highlights delivery, quality, and impact.</p>
+            </div>
+            <div class="project-grid">
+                <article class="card">
+                    <div class="card-media" role="img" aria-label="Project screenshot">
+                        <img src="images/LeaguesInternship.jpg" alt="Leagues team page thumbnail" loading="lazy" decoding="async">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Leagues Team page</h3>
+                        <p class="card-text">Designed and implemented UI/UX improvements to make the team page more intuitive and user-friendly.</p>
+                        <div class="card-actions">
+                            <a class="btn btn-small" href="#" data-gallery="leagues" aria-label="View project case study">Demo</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-media" role="img" aria-label="Project screenshot">
+                        <img src="images/ShopifyStore.png" alt="Shopify store thumbnail" loading="lazy" decoding="async">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Shopify store</h3>
+                        <p class="card-text">Shopify store for a fitness center in Greenland, where i took charge set the system up and gave the center the login for further implementations.</p>
+                        <div class="card-actions">
+                            <a class="btn btn-small" href="#" data-gallery="shopify" aria-label="View project case study">Demo</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-media" role="img" aria-label="Project screenshot">
+                        <img src="images/PortfolioPage.png" alt="Portfolio page thumbnail" loading="lazy" decoding="async">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">This Portfolio Page</h3>
+                        <p class="card-text">I created this page using HTML, CSS and JavaScript, in my spare time while studying Web Dev at EK</p>
+                        <div class="card-actions">
+                            <a class="btn btn-small" href="#" data-gallery="portfolio" aria-label="View project case study">Demo</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact</h2>
+                <p>Have a project in mind or want to collaborate? Let’s talk.</p>
+            </div>
+            <div class="contact-panel">
+                <a class="btn" href="mailto:tilphilipjuhl@gmail.com">Email me</a>
+                <div class="links">
+                    <a href="https://www.linkedin.com/in/philip-juhl-8511132b8/" target="none" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="https://github.com/ThePhilipJuhl" target="none" aria-label="GitHub">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Philip Juhl. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div id="image-modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Image slideshow">
+        <div class="modal-backdrop" data-close-modal></div>
+        <div class="modal-content" role="document">
+            <button class="modal-close" aria-label="Close" data-close-modal>&times;</button>
+            <div class="modal-body">
+                <button class="modal-nav prev" aria-label="Previous image" data-prev>&#10094;</button>
+                <div class="modal-image-wrap">
+                    <img id="modal-image" alt="Project image" />
+                    <div class="modal-overlay" aria-hidden="true"></div>
+                </div>
+                <button class="modal-nav next" aria-label="Next image" data-next>&#10095;</button>
+            </div>
+            <div class="modal-dots" id="modal-dots" aria-hidden="true"></div>
+        </div>
+    </div>
+    <script src="javascript/index.js" type="module"></script>
+</body>
+</html>
